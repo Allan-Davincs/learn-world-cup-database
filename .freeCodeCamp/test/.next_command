@@ -318,3 +318,7 @@ __vsc_prompt_cmd_original
 ./queries.sh
 ./queries.sh
 ./queries.sh
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
